@@ -11,6 +11,6 @@ public class CorrectPassword {
     void CorrectPassword0() {
         Scanner scanner = new Scanner(System.in);
         int password_1 = 15563355;
-        Assertions.assertNotEquals(968503663, password_1);
+        Assertions.assertNotEquals(960365563, password_1);
     }
 }
