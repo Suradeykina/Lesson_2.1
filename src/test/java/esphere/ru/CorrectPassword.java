@@ -10,7 +10,7 @@ public class CorrectPassword {
     @Test
     void CorrectPassword0() {
         Scanner scanner = new Scanner(System.in);
-        int password_1 = scanner.nextInt();
-        Assertions.assertNotEquals(888888, password_1);
+        int password_1 = 15563355;
+        Assertions.assertNotEquals(968503663, password_1);
     }
 }
